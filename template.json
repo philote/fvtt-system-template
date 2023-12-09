@@ -1,0 +1,33 @@
+{
+    "Actor": {
+      "types": ["character", "npc"],
+      "templates": {
+        "base": {
+            "notes": ""
+        }
+      },
+      "character": {
+        "templates": ["base"],
+        "stat": {
+          "min": 0,
+          "value": 1,
+          "max": 6
+        },
+        "occupation": ""
+      },
+      "npc": {
+        "templates": ["base"],
+        "looks": "",
+        "behaviors": "",
+        "motivations": ""
+      }
+    },
+    "Item": {
+      "types": ["item"],
+      "item": {
+        "description": "",
+        "quantity": 1
+      }
+    }
+  }
+  

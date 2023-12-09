@@ -1,0 +1,24 @@
+{
+    "FST": {
+      "AbilityStr": "Strength",
+      "AbilityCon": "Constitution",
+      "AbilityDex": "Dexterity",
+      "AbilityInt": "Intelligence",
+      "AbilityWis": "Wisdom",
+      "AbilityCha": "Charisma",
+    
+      "AbilityStrAbbr": "str",
+      "AbilityConAbbr": "con",
+      "AbilityDexAbbr": "dex",
+      "AbilityIntAbbr": "int",
+      "AbilityWisAbbr": "wis",
+      "AbilityChaAbbr": "cha",
+    
+      "EffectCreate": "Create Effect",
+      "EffectToggle": "Toggle Effect",
+      "EffectEdit": "Edit Effect",
+      "EffectDelete": "Delete Effect",
+    
+      "Add": "Add"
+    }
+  }
