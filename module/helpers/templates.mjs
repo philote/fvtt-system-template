@@ -7,9 +7,9 @@
   return loadTemplates([
 
     // Actor partials.
-    "systems/fvtt-system-template/templates/actor/parts/actor-features.html",
-    "systems/fvtt-system-template/templates/actor/parts/actor-items.html",
-    "systems/fvtt-system-template/templates/actor/parts/actor-spells.html",
-    "systems/fvtt-system-template/templates/actor/parts/actor-effects.html",
+    "systems/fvtt-system-template/templates/actor/parts/actor-features.hbs",
+    "systems/fvtt-system-template/templates/actor/parts/actor-items.hbs",
+    "systems/fvtt-system-template/templates/actor/parts/actor-spells.hbs",
+    "systems/fvtt-system-template/templates/actor/parts/actor-effects.hbs",
   ]);
 };

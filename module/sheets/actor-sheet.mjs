@@ -10,7 +10,7 @@ export class FSTActorSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ["fvtt-system-template", "sheet", "actor"],
-      template: "systems/fvtt-system-template/templates/actor/actor-sheet.html",
+      template: "systems/fvtt-system-template/templates/actor/actor-sheet.hbs",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
@@ -19,7 +19,7 @@ export class FSTActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/fvtt-system-template/templates/actor/actor-${this.actor.type}-sheet.html`;
+    return `systems/fvtt-system-template/templates/actor/actor-${this.actor.type}-sheet.hbs`;
   }
 
   /* -------------------------------------------- */
