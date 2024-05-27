@@ -1,24 +1,30 @@
 {
   "name": "fvtt-system-template",
   "version": "1.0.0",
-  "description": "CSS compiler for the fvtt-system-template",
+  "description": "CSS compiler & linting for the fvtt-system-template",
+  "author": "Joseph Hopson",
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    "last 3 versions"
+  ],
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
     "watch": "gulp",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs"
   },
-  "browserslist": [
-    "last 3 versions"
-  ],
-  "author": "Joseph Hopson",
-  "license": "MIT",
-  "private": true,
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "@eslint/js": "^9.3.0",
+    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "eslint": "^9.3.0",
+    "globals": "^15.2.0",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
     "sass": "^1.53.0"
   }
 }
