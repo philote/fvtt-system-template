@@ -4,16 +4,15 @@
     "description": "A <system name> system for Foundry VTT.",
     "version": "#{VERSION}#",
     "compatibility": {
-      "minimum": 10,
+      "minimum": 11,
       "verified": "11.315",
-      "maximum": 11
+      "maximum": 12
     },
     "authors": [
       {
         "name": "ephson",
         "url": "https://github.com/philote",
         "discord": "ephson",
-        "mastodon": "@ephson@dice.camp",
         "reddit": "u/ephson"
       }
     ],
